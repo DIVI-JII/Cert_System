@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-service",
+  "version": "1.0.0",
+  "description": "Baileys-based microservice that sends certificate PDFs over WhatsApp from the course center's number",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pino": "^9.4.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
